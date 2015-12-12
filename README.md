@@ -9,7 +9,7 @@ Links:
     - GitHub
         - https://github.com/madhat5/Portfolio1
     - Github.io link
-    	- 
+    	- http://madhat5.github.io/Portfolio1/
     - Wireframes
         - 
     - Trello link
