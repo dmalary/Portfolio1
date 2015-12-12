@@ -24,7 +24,6 @@ Deployment flow:
 - Pull @ beginning of day
     - from development
         - git pull origin master
-        - (npm install) if needed
 - Create 1 branch per file feature
     - from development
         - git checkout -b file_feature
@@ -43,5 +42,7 @@ Deployment flow:
         - Pull request)
     - OR
     - (git push origin master)
+    - from gh-pages (branch)
+    	- git pull origin master
 
-    
+
