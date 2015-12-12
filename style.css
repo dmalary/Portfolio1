@@ -1,0 +1,26 @@
+.greeting {
+  font-family: 'Special Elite', cursive;
+}
+
+.mini-bio {
+ font-family: 'Nixie One', cursive;
+}
+
+.bio-title {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+.index-title {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+.project-descr {
+  text-align: center;
+  font-family: 'Nixie One', cursive;
+}
+
+.proj-link{
+  font-family: 'Architects Daughter', cursive;
+}
