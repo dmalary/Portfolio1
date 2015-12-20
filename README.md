@@ -18,9 +18,10 @@ Links:
 --
 Deployment flow:
 
-- Create development branch
+- Create development & gh-pages branch
     - from master
-        - git checkout -b development       
+        - git checkout -b development
+        - git checkout -b gh-pages
 - Pull @ beginning of day
     - from development
         - git pull origin master
@@ -42,7 +43,7 @@ Deployment flow:
         - Pull request)
     - OR
     - (git push origin master)
-    - from gh-pages (branch)
+    - from gh-pages
     	- git pull origin master
 
 
