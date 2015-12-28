@@ -46,4 +46,7 @@ Deployment flow:
     - from gh-pages
     	- git pull origin master
 
+---
+Reference:
 
+- https://help.github.com/articles/adding-a-cname-file-to-your-repository/
