@@ -2,10 +2,10 @@ body {
   background-image: url('images/Samurai-Artwork.jpg')
 }
 
-.navbar-brand {
+/*.navbar-brand {
   height: 5px;
   width: 5px;
-}
+}*/
 
 .greeting {
   font-family: 'Special Elite', cursive;
