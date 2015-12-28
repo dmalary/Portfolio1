@@ -49,4 +49,13 @@ Deployment flow:
 ---
 Reference:
 
-- https://help.github.com/articles/adding-a-cname-file-to-your-repository/
+- custom url:
+    - https://help.github.com/articles/adding-a-cname-file-to-your-repository/
+
+- carousel:
+    - http://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+    - http://getbootstrap.com/examples/carousel/
+
+
+
+

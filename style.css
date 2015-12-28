@@ -1,11 +1,22 @@
-body {
-  background-image: url('images/Samurai-Artwork.jpg')
+/*.navbar-header {
+  width: 50%;
+  height: 50%;
 }
-
+*/
 /*.navbar-brand {
   height: 5px;
   width: 5px;
 }*/
+
+.container {
+  width: 85%;
+}
+
+.marketing {
+  background-image: url('images/Samurai-Artwork.jpg')
+}
+
+
 
 .greeting {
   font-family: 'Special Elite', cursive;
