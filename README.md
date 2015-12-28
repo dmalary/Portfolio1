@@ -47,6 +47,15 @@ Deployment flow:
     	- git pull origin master
 
 ---
+Debug:
+
+- jQuery not loading
+- carousel not working
+- navbar brand
+- General css
+
+
+
 Reference:
 
 - custom url:
@@ -55,6 +64,8 @@ Reference:
 - carousel:
     - http://www.w3schools.com/bootstrap/bootstrap_carousel.asp
     - http://getbootstrap.com/examples/carousel/
+
+
 
 
 
