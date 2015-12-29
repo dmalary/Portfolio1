@@ -49,8 +49,6 @@ Deployment flow:
 ---
 Debug:
 
-- jQuery not loading
-- carousel not working
 - navbar brand
 - General css
 

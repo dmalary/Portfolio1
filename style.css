@@ -1,8 +1,15 @@
-/*.navbar-header {
-  width: 50%;
-  height: 50%;
+.navbar-wrapper {
+  margin-top: 5%;
+  position: absolute;
 }
-*/
+
+.navbar-wrapper .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+}
+
 /*.navbar-brand {
   height: 5px;
   width: 5px;
