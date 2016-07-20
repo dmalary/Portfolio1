@@ -9,9 +9,26 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <!-- ================== LANDING PAGE ================== -->
   <!-- ========= NAVBAR ========= -->
-  <nav class='navbar navbar-default'>
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+          <li class="sidebar-brand">
+              <a href="#top" onclick=$("#menu-close").click();>David M.</a>
+          </li>
+          <li>
+              <a href="#top" onclick=$("#menu-close").click();>Projects</a>
+          </li>
+          <li>
+              <a href="#about" onclick=$("#menu-close").click();>Education</a>
+          </li>
+          <li>
+              <a href="#services" onclick=$("#menu-close").click();>About Me</a>
+          </li>
+      </ul>
+  </nav>
+  <!-- <nav class='navbar navbar-default'>
     <div class='container-fluid'>
       <div class='navbar-header'>
         <a class='navbar-brand' href="#">
@@ -19,7 +36,7 @@
         </a>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- ========= BRIEF BIO ========= -->
   <header id="top" class="header">
     <div class="container-fluid">
@@ -138,20 +155,43 @@
   </section>
 
   <!-- ================== EDUCATION ================== -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
+  <section id="education" class="education">
+    <div class="text-vertical-center">
           <h2>Education</h2>
           <p class="lead">List education with image of evolution of man <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="row">
+        <div class="education-item">
+          <h4>
+            <strong>Montessori</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>LFNY</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>ISD</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>Carleton U./Miami Dade College</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>General Assembly</strong>
+          </h4>
         </div>
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container -->
+  </div>
   </section>
   <!-- ================== BIO ================== -->
-  <section id="about" class="about">
+  <section id="bio" class="bio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
