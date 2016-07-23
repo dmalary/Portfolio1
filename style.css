@@ -12,7 +12,7 @@ body {
     vertical-align: middle;
 }
 
-.text-vertical-center h1 {
+.text-vertical-center {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
@@ -123,7 +123,24 @@ hr.small {
     -o-background-size: cover;
 }
 
+.intro-bio {
+  margin-top: 15%;
+}
 
+.greeting {
+  font-family: 'Special Elite', cursive;
+  font-size: 85px;
+}
+
+.bio1{
+  font-size: 24px;
+  font-family: 'Raleway', cursive;
+}
+
+.bio2{
+  font-size: 18px;
+  font-family: 'Raleway', cursive;
+}
 
 /* MENU */
 
@@ -185,9 +202,6 @@ hr.small {
   background-color: white;
 }
 
-.greeting {
-  font-family: 'Special Elite', cursive;
-}
 
 /*.mini-bio {
  font-family: 'Nixie One', cursive;
