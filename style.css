@@ -213,6 +213,27 @@ hr.small {
     -o-background-size: cover;
 }
 
+/* BIO */
+
+.bio {
+  width: 100%;
+  height: 100%;
+}
+
+.more-bio{
+  margin-top: 15%;
+}
+
+.bio-title{
+  font-family: 'Special Elite', cursive;
+  font-size: 85px;
+}
+
+.bio-text{
+  font-size: 22px;
+  font-family: 'Raleway', cursive;
+}
+
 .container {
   width: 88%;
 }
@@ -220,9 +241,6 @@ hr.small {
 .marketing {
   background-color: white;
 }
-
-
-
 
 /*.mini-bio {
  font-family: 'Nixie One', cursive;
