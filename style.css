@@ -161,12 +161,12 @@ hr.small {
   font-size: 85px;
 }
 
-.bio1{
+.bio1 {
   font-size: 24px;
   font-family: 'Raleway', cursive;
 }
 
-.bio2{
+.bio2 {
   font-size: 18px;
   font-family: 'Raleway', cursive;
 }
@@ -222,17 +222,22 @@ hr.small {
   background-color: WhiteSmoke;
 }
 
-.more-bio{
+.more-bio {
   margin-top: 5%;
 }
 
-.bio-title{
+.bio-title {
   font-family: 'Special Elite', cursive;
   font-size: 85px;
 }
 
-.bio-text{
-  font-size: 18px;
+.bio-snippet {
+  font-size: 23px;
+  font-family: 'Raleway', cursive;
+}
+
+.bio-text {
+  font-size: 17px;
   font-family: 'Raleway', cursive;
 }
 
@@ -242,8 +247,9 @@ hr.small {
 
 /* FOOTER */
 
-.footer{
+.footer {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -258,8 +264,4 @@ hr.small {
   text-align: center;
   color: #CD6532;
   font-family: 'Nixie One', cursive;
-}
-
-.proj-link{
-  font-family: 'Architects Daughter', cursive;
 }
