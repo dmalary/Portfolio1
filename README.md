@@ -11,9 +11,9 @@ Links:
     - Github.io link
     	- http://madhat5.github.io/Portfolio1/
     - Wireframes
-        - 
+        -
     - Trello link
-        - 
+        -
 
 --
 Deployment flow:
@@ -28,7 +28,7 @@ Deployment flow:
 - Create 1 branch per file feature
     - from development
         - git checkout -b file_feature
-- By end of day 
+- By end of day
     - from branch
         - git add .
         - git commit -m "update details"
@@ -39,12 +39,12 @@ Deployment flow:
         - (git push origin development)
         - git checkout development
     - from development
-    - (gitHub
-        - Pull request)
-    - OR
-    - (git push origin master)
+        - (gitHub
+          - Pull request)
+        - OR
+        - (git push origin master)
     - from gh-pages
-    	- git pull origin master
+        - git pull origin master
 
 ---
 Debug:
@@ -62,9 +62,3 @@ Reference:
 - carousel:
     - http://www.w3schools.com/bootstrap/bootstrap_carousel.asp
     - http://getbootstrap.com/examples/carousel/
-
-
-
-
-
-
