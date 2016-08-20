@@ -2,52 +2,270 @@
 <html>
 <head>
   <title>DM Portfolio</title>
-
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-  <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Special+Elite|Nixie+One|Poiret+One|Architects+Daughter' rel='stylesheet' type='text/css'>
+  <!-- Bootstrap: compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--  Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite|Quicksand|Raleway|Roboto+Mono' rel='stylesheet' type='text/css'>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Rock+Salt|Special+Elite|Nixie+One|Poiret+One|Architects+Daughter' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
+  <!-- ========= NAVBAR ========= -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+          <li class="sidebar-brand">
+              <a href="#top" onclick=$("#menu-close").click();>David M.</a>
+          </li>
+          <li>
+              <a href="#portfolio" onclick=$("#menu-close").click();>Projects</a>
+          </li>
+          <li>
+              <a href="#education" onclick=$("#menu-close").click();>Education</a>
+          </li>
+          <li>
+              <a href="#bio" onclick=$("#menu-close").click();>About Me</a>
+          </li>
+      </ul>
+  </nav>
+  <!-- <nav class='navbar navbar-default'>
+    <div class='container-fluid'>
+      <div class='navbar-header'>
+        <a class='navbar-brand' href="#">
+          <img alt="Brand" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+        </a>
+      </div>
+    </div>
+  </nav> -->
+  <!-- ========= BRIEF BIO ========= -->
+  <header id="top" class="header">
+    <div class="container-fluid">
+      <div class="intro-bio col-md-10 col-md-offset-1">
+        <h1 class="greeting">Hello, Bonjour!</h1>
+        <br>
+        <p class="bio1">
+          My name is David Malary. Sometimes I go by Dave.
+          <br>
+          I'm a Developer at the New York & Sweden based FinTech firm
+          <a target="_blank" href="https://www.qapital.com/">Qapital</a>
+          .
+        </p>
+        <p class="bio2">
+          I've worked for companies like Signal360 (formerly Sonic Notify), Changing Our World, and Ensemble Travel. I've lived in a few places around the world, including Paris, Port-au-Prince, Miami, Dakar, Ottawa, Montreal, and New York.
+          But more importantly, I'm curious to know what brings you here, and how I can help?
+        </p>
+      </div>
+    </div>
+  </header>
+  <!-- ================== PORTFOLIO ================== -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+          <h2>My Projects</h2>
+          <h5>use <a target="_blank" href="https://dribbble.com/">Dribble?</a></h5>
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="#">
+                  <h4>Redesign of dream client (eg IGN, ESPN)</h4>
+                  <img class="img-portfolio img-responsive" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="#">
+                  <h4>Build for brick n mortar shop (eg J&L)</h4>
+                  <img class="img-portfolio img-responsive" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="#">
+                  <h4>Mobile version redesign of website </h4>
+                  <img class="img-portfolio img-responsive" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="#">
+                  <h4>Redesigned newsletter template</h4>
+                  <img class="img-portfolio img-responsive" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="#">
+                  <h4>chrome extension/bot</h4>
+                  <img class="img-portfolio img-responsive" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portfolio-item">
+                <a href="#">
+                  <h4>BlackJack helper?</h4>
+                  <img class="img-portfolio img-responsive" src="http://www.mikeharding.co.uk/wp-content/uploads/2009/12/dmlogo3.gif">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
 
-  <h1 class='greeting'>Welcome to my Portfolio</h1>
-
-  <div class='mini-bio'>
-
-    <h3 class='bio-title'>About Me</h3>
-
-    <div class='bio-text'>
-        <p>When asked what 3 words would best describe me, I would say:
-          <ul>
-            <li>Curious</li>
-            <li>Stubborn</li>
-            <li>A Paradox</li>
-          </ul>
-        In the same way most animals spend their waking hours seeking food, I look to answer the numerous questions I come accross everyday, and I do so with a stubborn and relentless pursuit.
-        I decided to pursue computer programming and web development in order to provide myself with the skills I feel will allow me to succeed in my life.</p>
+  <!-- ================== EDUCATION ================== -->
+  <section id="education" class="education">
+    <div class="text-vertical-center">
+          <h2>Education</h2>
+          <p class="lead">List education with image of evolution of man <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="row">
+        <div class="education-item">
+          <h4>
+            <strong>Montessori</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>LFNY</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>ISD</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>Carleton U./Miami Dade College</strong>
+          </h4>
+        </div>
+        <div class="education-item">
+          <h4>
+            <strong>General Assembly</strong>
+          </h4>
+        </div>
+      </div>
     </div>
   </div>
-
-  <br>
-
-  <div class='project-index'>
-    <h3 class='index-title'>My Projects</h3>
-
-    <ul>
-      <a class='proj-link' href="http://google.com"><li>Project 1: BlackJack </li></a>
-      <p class='project-descr'>This was my first attempt at building a web app. It is a basic black jack game built with JS/JQuery and an external library. (Updates required)</p>
-      <a class='proj-link' href="http://google.com"><li>Project 2: Note(d)</li></a>
-      <p class='project-descr'>This was my first attempt at a Rails web app. It includes user authentication, 2 models, CRUD functionality, and Skeleton for visuals. (Updates required)</p>
-      <a class='proj-link' href="https://intense-wave-8057.herokuapp.com/"><li>Project 3: Sports Bucketlist (Group)</li></a>
-      <p class='project-descr'>This was our first attempt at a group project, as well as our first attempt at building a Mongo, Express, NodeJS app. It is a sports oriented bucket list, with user authentication, CRUD functionanility, and GoogleMaps API use. (Updates required)</p>
-      <a class='proj-link' href="http://google.com"><li>Project 4: Jmny, goal helper</li></a>
-      <p class='project-descr'>Final project, MEAN stack attempt. Goal helper app, will have user authentication, 2 models, CRUD for Goals and Goals-Steps. (Under Construction)</p>
-      <a class='proj-link' href="http://google.com"><li>Other (mini-apps)</li></a>
-      <p class='project-descr'>(Under Construction)</p>
-    </ul>
-  </div>
-
+  </section>
+  <!-- ================== BIO ================== -->
+  <section id="bio" class="bio">
+    <div class="container">
+      <div class="more-bio col-lg-12 text-center">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-snippet">Here's what you find if you google me: <a target="_blank" href='https://www.google.com/search?q=david+malary&oq=david+malary&aqs=chrome..69i57j0j69i65j69i61j0l2.1588j0j7&sourceid=chrome&ie=UTF-8#q="david+malary"'>David Malary</a>
+          <br>
+          <br>
+        <div class="col-lg-7 text-left">
+          <p class="bio-text"><b>Here&#39;s what I believe:</b> Hard work, smart work, and good work ethic are important.
+            I believe in systems to organize my work - the simpler the better, to get things done efficiently.
+            I believe it&#39;s important to continually adapt, and overcome.
+            I believe it&#39;s important to know my strengths, just as much as my weaknesses.
+            I believe it&#39;s important to be emotional - to celebrate victories, and mourn losses.
+            Last but not least, one of my favorite quotes: "Have a plan, stick to it."</p>
+          <br>
+          <p class="bio-text">how/why I am where I am today (eg sales to dev);
+          changing our world (anlaysis, made me understand its always important to look at data to understand to bigger picture);
+          signal30 (sales, understanding sales funnel, managing expectations);
+          general assembly;
+          qapital.</p>
+          <br>
+          <p class="bio-text">today and future:
+          continuing to hone my web developement skills;
+          plans to pursue an advanced degree in finance</p>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- ================== CONTACT/FOOTER ================== -->
+  <footer>
+      <div class="container footer">
+          <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <h4><strong>Let's chat! Here's how you can contact me:</strong>
+                  </h4>
+                  <div class="row">
+                    <a target="_blank" href="https://github.com/madhat5"><img src="images/github-128.png" alt="" width="42" height="42"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/david-malary-95565a94"><img src="images/linkedin-128.png" alt="" width="42" height="42"></a>
+                    <a target="_blank" href="https://angel.co/david-m-2"><img src="images/angellist-128.png" alt="" width="42" height="42"></a>
+                    <a href="mailto:davidmalary@gmail.com"><img src="images/letter-128.png" alt="" width="42" height="42"></a>
+                  </div>
+                  <p><br>downloadable resume (in contact info below?);</p>
+                  <ul class="list-unstyled">
+                      <li><i class="fa fa-phone fa-fw"></i> Google voice #?</li>
+                      <!-- <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:davidmalary@gmail.com">davidmalary@gmail.com</a> -->
+                      </li>
+                  </ul>
+                  <!-- <br>
+                  <ul class="list-inline">
+                      <li>
+                          <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-angellist fa-fw fa-3x"></i></a>
+                      </li>
+                      <li>
+                          <a href="#"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                      </li>
+                  </ul> -->
+                  <hr class="small">
+                  <p class="text-muted">Copyright &copy; David Malary 2016</p>
+              </div>
+          </div>
+      </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+  </footer>
+  <!-- ================== SCRIPTS ================== -->
+  <!--  jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!--  Bootstrap: compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!--  JavaScript -->
+  <script type="text/javascript" src='app.js'></script>
 </body>
 </html>
 
+<<<<<<< HEAD
+=======
+
+<!-- ================== TEMP ================== -->
+<!-- <section>
+<div class='container marketing'>
+<hr class='featurette-divider'>
+<div class='row'>
+<div class='col-lg-6 col-lg-push-1'>
+<img class='img-circle' src="images/mr_dna1.png" alt="Generic placeholder image" width='150' height='150'>
+<p>
+<a class='btn btn-default' href="#" role='button'>Projects/Portfolio</a>
+</p>
+</div>
+<div class='col-lg-6 col-lg-push-1'>
+<img class='img-circle' src='images/mr_dna1.png' alt="Generic placeholder image" width='150' height='150'>
+<p>
+<a class='btn btn-default' href="#" role='button'>Education</a>
+</p>
+</div>
+<div class='col-lg-6 col-lg-push-1'>
+<img class='img-circle' src='images/mr_dna1.png' alt="Generic placeholder image" width='150' height='150'>
+<p>
+<a class='btn btn-default' href="#" role='button'>More about me</a>
+</p>
+</div>
+</div>
+</div>
+</section> -->
+>>>>>>> 5dfcb323484e3e72620b3b9f31b481bd3ad06762
